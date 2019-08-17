@@ -46,6 +46,7 @@ public class Test {
         Class initable = Initable.class;
         System.out.println("After creating Initable ref");
         System.out.println(Initable.staticFinal);
+        System.out.println("-------------");
         System.out.println(Initable.staticFinal2);
         System.out.println("-------------");
         System.out.println(Initable2.staticNonFinal);
